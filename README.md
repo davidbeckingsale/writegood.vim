@@ -12,7 +12,7 @@ on both gvim and terminal vim.
 
 ## Screenshot
 
-![Writegood mode in action](https://github.com/davidbeckingsale/writegood.vim/blob/master/writegood.png)
+![Writegood mode in action](https://github.com/davidbeckingsale/writegood.vim/raw/master/writegood.png)
 
 ## About
 
