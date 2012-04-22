@@ -1,0 +1,125 @@
+*writegood.txt* A plugin for highlighting common writing problems in Vim.
+
+                                                                    *writegood*
+    __      __             __                                    __     
+   /\ \  __/\ \         __/\ \__                                /\ \    
+   \ \ \/\ \ \ \  _ __ /\_\ \ ,_\    __     __     ___    ___   \_\ \   
+    \ \ \ \ \ \ \/\`'__\/\ \ \ \/  /'__`\ /'_ `\  / __`\ / __`\ /'_` \  
+     \ \ \_/ \_\ \ \ \/ \ \ \ \ \_/\  __//\ \L\ \/\ \L\ \\ \L\ \\ \L\ \ 
+      \ `\___x___/\ \_\  \ \_\ \__\ \____\ \____ \ \____/ \____/ \___,_\
+       '\/__//__/  \/_/   \/_/\/__/\/____/\/___L\ \/___/ \/___/ \/__,_ /
+                                            /\____/                     
+                                            \_/__/                      
+   
+Author:         David Beckingsale
+Version         0.1.0
+Last Change:    2012-04-22
+
+===============================================================================
+CONTENTS                                                   *writegood-contents*
+
+    1. Introduction.......................... |writegood-introduction|
+    2. Commands.............................. |writegood-commands|
+    3. Mappings.............................. |writegood-mappings|
+    4. About................................. |writegood-about|
+    5. Changelog............................. |writegood-changelog|
+    6. License............................... |writegood-license|
+
+===============================================================================
+1. INTRODUCTION                                        *writegood-introduction*
+
+Writegood is a plugin to highlight common writing problems.
+
+The plugin uses the 'Error' group to highlight errors, so I assume it will work
+on both gvim and terminal vim.
+
+Features:~
+    * Detects duplicate words (even over newlines)
+    * Highlights use of passive voice
+    * Highlights common "weasel words"
+
+===============================================================================
+2. COMMANDS                                                *writegood-commands*
+
+-------------------------------------------------------------------------------
+:WritegoodToggle                                             *:WritegoodToggle*
+    Toggles the highlighting on and off.
+
+-------------------------------------------------------------------------------
+:WritegoodEnable                                             *:WritegoodEnable*
+    Enable highlighting.
+
+-------------------------------------------------------------------------------
+:WritegoodDisable                                           *:WritegoodDisable* 
+    Disable highlighting.
+
+===============================================================================
+3. Mappings                                                *writegood-mappings*
+
+The default mapping for toggling the highlighting on and off is <leader>wg.
+Use :nmpa to change it to something else:
+>
+    :nmap <leader>ww :WritegoodToggle<cr>
+<
+
+The :WritegoodEnable and :WritegoodDisable commands are not mapped by default,
+but feel free to add a mapping to use them:
+>
+    :nmap <leader>we :WritegoodEnable<cr>
+<
+
+===============================================================================
+4. ABOUT                                                      *writegood-about*
+
+After reading Matt Might's blog post about a year ago, I was thrilled when I
+came across Benjamin Beckwith's writegood mode for Emacs, my editor of choice at
+the time. However, people change, and after jumping on the vim bandwagon about
+six months ago I forgot about both the plugin and Matt's post.
+
+Eventually I found myself in the position to be doing some academic writing
+again, and was frustrutated when I couldn't find a similar plugin for vim, so
+after reading Steve Losh's 'Learn Vimscript the Hard Way' I decided to write one
+for myself.
+
+Links:~
+    http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+    https://github.com/bnbeckwith/writegood-mode
+    http://learnvimscriptthehardway.stevelosh.com/
+    https://github.com/nathanaelkane/vim-indent-guides
+
+Credits:~
+    * Matt Might for writing the original scripts.
+    * Benjamin Beckwith for the emacs mode and catchy title I've borrowed.
+    * Steve Losh for 'Learn Vimscript the Hard Way'.
+    * Nathaniel Kane for the vim-indent-guides plugin, which I used as a
+        reference for structuring and documentation.
+    
+Contact:~
+    * Twitter: @dabeckingsale
+
+If anyone has any suggestions for improving my dodgy match usage, it would be
+much appreciated.
+
+===============================================================================
+5. CHANGELOG                                              *writegood-changelog*
+
+0.1.0
+    * Initial version, everything roughly working.
+
+===============================================================================
+6. LICENSE                                                  *writegood-license*
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; see the file COPYING.  If not, write to
+the Free Software Foundation, Inc., 51 Franklin Street, Fifth
+Floor, Boston, MA 02110-1301, USA.
