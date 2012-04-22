@@ -12,7 +12,7 @@ on both gvim and terminal vim.
 
 ## Screenshot
 
-![Writegood mode in action](writegood.png)
+![Writegood mode in action](/writegood.png)
 
 ## About
 
