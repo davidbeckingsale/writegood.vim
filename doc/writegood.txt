@@ -57,7 +57,7 @@ Features:~
 3. Mappings                                                *writegood-mappings*
 
 The default mapping for toggling the highlighting on and off is <leader>wg.
-Use :nmpa to change it to something else:
+Use :nmap to change it to something else:
 >
     :nmap <leader>ww :WritegoodToggle<cr>
 <
