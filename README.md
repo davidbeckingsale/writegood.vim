@@ -26,6 +26,26 @@ again, and was frustrutated when I couldn't find a similar plugin for vim, so
 after reading Steve Losh's 'Learn Vimscript the Hard Way' I decided to write one
 for myself.
 
+### Installation
+
+Using vim >=8.0, the builtin *packages* system is recommended:
+
+```bash
+mkdir -p .vim/pack/plugins/start
+cd .vim/pack/plugins/start
+git clone https://github.com/davidbeckingsale/writegood.vim.git writegood
+```
+Writegood is now started automatically. Note that the name of the *plugins* directoy can be chosen freely.
+
+
+### Usage
+
+Writegood.vim introduces three commands to enable, disable, or toggle its functionality:
+
+* `:WriteGoodEnable`
+* `:WriteGoodDisable`
+* `:WriteGoodToggle`
+
 ### Links
 * Matt Might's original [blog post](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/)
 * Benjamin Beckwiths [emacs minor-mode](https://github.com/bnbeckwith/writegood-mode)
