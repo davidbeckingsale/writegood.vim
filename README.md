@@ -29,15 +29,15 @@ for myself.
 ### Installation
 
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/bundle/vim-go`
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/bundle/writegood.vim`
 *  [vim-plug](https://github.com/junegunn/vim-plug)
-  * `Plug 'fatih/vim-go'`
+  * `Plug 'davidbeckingsale/writegood.vim'`
 *  [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  * `NeoBundle 'fatih/vim-go'`
+  * `NeoBundle 'davidbeckingsale/writegood.vim'`
 *  [Vundle](https://github.com/gmarik/vundle)
-  * `Plugin 'fatih/vim-go'`
+  * `Plugin 'davidbeckingsale/writegood.vim'`
 *  [Vim packages](http://vimhelp.appspot.com/repeat.txt.html#packages)
-  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/pack/plugins/start/vim-go`
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/pack/plugins/start/writegood.vim`
 
 ### Usage
 
