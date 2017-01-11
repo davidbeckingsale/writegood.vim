@@ -28,15 +28,16 @@ for myself.
 
 ### Installation
 
-Using vim >=8.0, the builtin *packages* system is recommended:
-
-```bash
-mkdir -p .vim/pack/plugins/start
-cd .vim/pack/plugins/start
-git clone https://github.com/davidbeckingsale/writegood.vim.git writegood
-```
-Writegood is now started automatically. Note that the name of the *plugins* directoy can be chosen freely.
-
+*  [Pathogen](https://github.com/tpope/vim-pathogen)
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/bundle/vim-go`
+*  [vim-plug](https://github.com/junegunn/vim-plug)
+  * `Plug 'fatih/vim-go'`
+*  [NeoBundle](https://github.com/Shougo/neobundle.vim)
+  * `NeoBundle 'fatih/vim-go'`
+*  [Vundle](https://github.com/gmarik/vundle)
+  * `Plugin 'fatih/vim-go'`
+*  [Vim packages](http://vimhelp.appspot.com/repeat.txt.html#packages)
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/pack/plugins/start/vim-go`
 
 ### Usage
 
