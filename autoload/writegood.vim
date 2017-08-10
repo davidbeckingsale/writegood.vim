@@ -6,8 +6,10 @@ function! writegood#toggle()
 
     if empty(w:writegood_on)
         call writegood#enable()
+        echo "writegood enabled"
     else
         call writegood#disable()
+        echo "writegood disabled"
     endif
 endfunction
 
