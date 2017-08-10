@@ -26,6 +26,27 @@ again, and was frustrutated when I couldn't find a similar plugin for vim, so
 after reading Steve Losh's 'Learn Vimscript the Hard Way' I decided to write one
 for myself.
 
+### Installation
+
+*  [Pathogen](https://github.com/tpope/vim-pathogen)
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/bundle/writegood.vim`
+*  [vim-plug](https://github.com/junegunn/vim-plug)
+  * `Plug 'davidbeckingsale/writegood.vim'`
+*  [NeoBundle](https://github.com/Shougo/neobundle.vim)
+  * `NeoBundle 'davidbeckingsale/writegood.vim'`
+*  [Vundle](https://github.com/gmarik/vundle)
+  * `Plugin 'davidbeckingsale/writegood.vim'`
+*  [Vim packages](http://vimhelp.appspot.com/repeat.txt.html#packages)
+  * `git clone https://github.com/davidbeckingsale/writegood.vim ~/.vim/pack/plugins/start/writegood.vim`
+
+### Usage
+
+Writegood.vim introduces three commands to enable, disable, or toggle its functionality:
+
+* `:WriteGoodEnable`
+* `:WriteGoodDisable`
+* `:WriteGoodToggle`
+
 ### Links
 * Matt Might's original [blog post](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/)
 * Benjamin Beckwiths [emacs minor-mode](https://github.com/bnbeckwith/writegood-mode)
