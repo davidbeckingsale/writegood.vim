@@ -43,9 +43,9 @@ for myself.
 
 Writegood.vim introduces three commands to enable, disable, or toggle its functionality:
 
-* `:WriteGoodEnable`
-* `:WriteGoodDisable`
-* `:WriteGoodToggle`
+* `:WritegoodEnable`
+* `:WritegoodDisable`
+* `:WritegoodToggle`
 
 ### Links
 * Matt Might's original [blog post](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/)
